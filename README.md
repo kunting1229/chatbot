@@ -54,3 +54,16 @@ RWD 設計 & UX 友善
 1. loading 效果
 2. 跳回當前對話的按鈕，當你滑到之前對話時，想要快速回到當前對話時可以按
 3. 將訊息儲存到 localstorage
+
+## 使用說明
+
+請至 https://openrouter.ai/ 申請 API
+
+並於該專案的根目錄建立存放 API key 的環境變數檔案
+
+1. .env.development
+2. .env.production
+
+```
+VITE_AI_KEY=YourAPIKey
+```
